@@ -1,0 +1,51 @@
+body {
+    background-color: rgba(173, 216, 230, 0.2); /* Cor de fundo com 70% de transparência */
+    background-image: url('/images/Wallpaper.jpg');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o corpo */
+    background-repeat: no-repeat; /* Evita repetir a imagem */
+    margin: 0;
+    margin-left: 20px; /* ou qualquer valor de margem à esquerda que você preferir */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+img {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+img:hover {
+    opacity: 1;
+}
+
+.construction-icon {
+    font-size: 24px;
+    color: black;
+    margin-right: 10px;
+}
+
+.transparent-image {
+    opacity: 0.5;
+}
+
+.curriculum-link a {
+    background-color: lightblue;
+    color: red;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
