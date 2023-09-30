@@ -1,3 +1,11 @@
+:root {
+    --cor-link: black;
+}
+
+a {
+    color: var(--cor-link); /* Aplica a cor aos links */
+}
+
 body {
     background-color: rgba(173, 216, 230, 0.2); /* Cor de fundo com 70% de transparência */
     background-image: url('/images/Wallpaper.jpg');
@@ -49,3 +57,10 @@ img:hover {
     text-decoration: none;
     font-weight: bold;
 }
+
+.half-page {
+    max-width: 50vw; /* Limita a largura do elemento a 50% da largura da janela de visualização */
+    margin-left: 10vw; /* Margem à esquerda para centralizar o texto na metade da página */
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
